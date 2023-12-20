@@ -1,0 +1,80 @@
+ body{
+	background: url(img/back.jpg);
+	font-family: Mirra;
+	font-size: 20px;
+	color: white;
+	overflow-x:hidden;
+}
+ 
+ 
+ #head1{
+     font-family: Mirra;
+	 font-size: 18px;
+	 color: rgba(255,255,255,0.4);
+	 display: flex;
+	 justify-content: flex-start;
+	 flex-direction: row;
+	 margin-top: 20px;
+	 margin-left: 340px;
+ }
+
+#p{
+     font-family: Mirra;
+	 color: white;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
+	 margin-top: 200px;
+}	
+ h1{
+	 font-family: Mirra;
+	 font-size: 94px;
+	 color: white;
+ }
+ 
+ #b{
+	 font-family: Mirra;
+	 font-size: 26px;
+	 color: rgba(255,255,255,0.8);
+	 text-align: center;
+	 margin-top: -50px;
+ }
+ 
+ #cupitb{
+	 font-family: Mirra;
+	 font-size: 30px;
+	 color: white;
+	 margin-top: 70px;
+	 background-color: rgba(255,255,255,0.08);
+	 padding: 18px 40px;
+	 border: 1px solid #FFFFFF;
+	 border-radius: 100px;
+	 
+ }
+ 
+ 
+ #cnop{
+	 display: flex;
+	 justify-content: center;
+	 
+ }
+ 
+ #stroki{
+	position: relative;
+ }
+ 
+ @font-face{
+	 font-family: Mirra;
+	 src: url(font/Mirra.otf);
+ }
+ 
+ a{
+	 text-decoration: none;
+	 color: white;
+ }
+ 
+ a:hover{
+	 text-decoration: underline;
+	 color: gray;
+ }

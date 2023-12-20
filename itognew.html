@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Кинопоказ</title>
+	<link rel="stylesheet" href="indexs1.css">
+</head>
+
+<body>
+<header>
+	<div id="head1"> 
+	<a href="indexitog1.html"> Главная </a>
+	<a href="indexitog1.html" style="margin-left: 40px"> Купить билет </a>
+	<a href="indexitog1.html" style="margin-left: 40px"> Корзина </a>
+	</div>
+</header>
+
+<div id="p">
+
+	<h1>Кинопоказ "Один дома"</h1>
+	
+	<div id="b">
+		<p>особняк Брусницина вновь открывает двери для прекрасных жителей и гостей Петербурга, </p>
+		<p>чтобы напитаться атмосферой праздника</p>
+	</div>
+
+</div>
+
+<div id="cnop" >
+    <a style="text-decoration: none" class="button" href="index3.html" id = "cupitb" >Купить билет</a>
+</div>
+
+<div id="stroki" style="margin-top: 100px">
+ 
+</div>
+
+<script>
+let but = document.getElementById("cupitb");
+let step = 1;
+
+
+but.addEventListener("mouseout", function(){
+	but.style.backgroundColor= 'rgba(255,255,255,0.08)';
+	but.style.color="white";
+	but.style.borderColor="white";
+})
+but.addEventListener("mouseover", function(){
+	but.style.backgroundColor = "rgb(139, 0, 0)";
+	but.style.color='white';
+	but.style.borderColor="rgb(139, 0, 0)";
+})
+
+	
+function back() {
+	
+		let backgroundPositionX = parseFloat(getComputedStyle(stroki).backgroundPositionX) || 0;
+		stroki.style.backgroundPositionX = `${backgroundPositionX - step}px`;
+
+	}
+	
+	setInterval(back, 1000/60);
+	
+
+</script>
+
+</body>
+</html>
